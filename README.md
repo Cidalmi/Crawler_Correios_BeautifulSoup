@@ -49,4 +49,5 @@ Iniciamos com um loop em todos os estados de forma síncrona para efetuar o post
 
 Em uma próxima etapa, será efetuar o tratamento dos dados, onde usaremos o pandas para filtrar os campos de id, localidade e faixa de cep, depois removemos os duplicados e transformamos o dataframe em json lines para que seja criar o arquivo.
 
+
 O arquivo output.jsonl será criado na raiz do projeto. 
